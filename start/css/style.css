@@ -191,3 +191,39 @@ header::after {
     transform: translateY(-120px);
     z-index: 1;
 }
+
+.info__top{
+    display: flex;
+    gap: 80px;
+    padding-top: 100px;
+}
+
+.info__top-text{
+    padding-top: 245px;
+    width: 290px;
+    color: #fff;
+}
+
+.info__top-img{
+    position: relative;
+    z-index: 6;
+}
+
+.popup-btn{
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.popup-btn span{
+    padding-top: 12px;
+    display: block;
+    color: #fff;
+}
+
+.info__btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
